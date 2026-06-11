@@ -20,7 +20,8 @@ import {
   Briefcase,
   ArrowUpRight,
 } from "lucide-react";
-import profilePhoto from "@/assets/profile.jpg";
+import profilePhotoAsset from "@/assets/efrain.png.asset.json";
+const profilePhoto = profilePhotoAsset.url;
 
 // ============================================================================
 // CENTRALIZED PORTFOLIO DATA
@@ -37,8 +38,8 @@ const PORTFOLIO_DATA = {
     location: "Nuevo León, México",
     photo: profilePhoto,
     socials: {
-      linkedin: "https://www.linkedin.com/",
-      github: "https://github.com/",
+      linkedin: "https://www.linkedin.com/in/efrain-guadalupe-ferretiz-macias-data-analyst/",
+      github: "https://github.com/EfrainFerre",
       email: "guadaluoeefrain@gmail.com",
     },
   },
